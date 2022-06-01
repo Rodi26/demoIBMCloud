@@ -7,3 +7,4 @@ variable "region" {
 }
 variable "environment" { 
   default = "not-defined" 
+}
