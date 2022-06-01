@@ -1,6 +1,3 @@
-variable "ssh_key" {
-}
-
 locals {
     BASENAME = "vpctestexample"
     ZONE     = "us-south-1"
