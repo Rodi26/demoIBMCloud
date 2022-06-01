@@ -57,7 +57,3 @@ resource "ibm_is_floating_ip" "fip1" {
     name   = "${local.BASENAME}-fip1"
     target = ibm_is_instance.vsi1.primary_network_interface[0].id
     }
-
-  output "sshcommand" {
-    value = "ssh root@${ibm_is_floating_ip.fip1.address}"
-    }
