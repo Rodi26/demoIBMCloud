@@ -15,7 +15,7 @@ module "tfrun-functions" {
 }
 
 policy "validate-all-variables-have-descriptions" {
-    source = "../validate_variables_have_descriptions.sentinels"
+    source = "../validate_variables_have_descriptions.sentinel"
     enforcement_level = "advisory"
 }
 
