@@ -1,4 +1,5 @@
 # demoIBMCloud
 
-variables : 
-ssh_key=myvpc1
+# variables : 
+# ssh_key=myvpc1
+
